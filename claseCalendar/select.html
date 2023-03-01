@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+<body>
+    <main>
+        <!--Esta forma no es la mejor practica para una lista larga-->
+        <!-- <select name="cursos" id="">
+            <option value="JavaScript">JavaScript</option>
+            <option value="HTML5">HTML5</option>
+            <option value="PHP">PHP</option>
+            <option value="Spring Boot">Spring Boot</option>
+            <option value="CSS3">CSS3</option>
+            <option value="C++">C++</option>
+        </select> -->
+        <input list="cursos">
+        <datalist id="cursos">
+            <option value="JavaScript"></option>
+            <option value="HTML5"></option>
+            <option value="PHP"></option>
+            <option value="Spring Boot"></option>
+            <option value="CSS3"></option>
+            <option value="C++"></option>
+        </datalist>
+    </main>
+</body>
+</html>
