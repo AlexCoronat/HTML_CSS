@@ -1,0 +1,19 @@
+.titulo{
+    color: rgb(230, 230, 230);
+    font-size: 40px;
+    position:  relative;
+    background-color: rgb(5, 0, 77);
+}
+
+#categoria{
+    color: rgb(55, 0, 87);
+    font-size: 24px;
+}
+#articulo{
+    color: rgb(167, 150, 3);
+    font-size: 20px;
+
+}
+#ul{
+    color: brown;
+}

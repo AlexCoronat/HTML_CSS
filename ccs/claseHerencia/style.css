@@ -1,0 +1,51 @@
+*{/*Resetea los valores por defecto de los contenedores
+    para poderlos ajustar a nuestro gusto y que la 
+    funcionalidad no se vea afectada*/
+    box-sizing: border-box;/*Ajusta automaticamente los valores*/
+    padding: 0;
+    margin: 0;
+}
+html{
+    background-color: rgb(219, 219, 219);
+}
+.titulo{
+    font-family: monospace;
+    border-radius: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: beige;
+    background-color: rgba(9, 19, 77, 0.911);
+    text-align: center;
+}
+.nav{
+    margin-top: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0;
+    background-color: rgb(18, 18, 54);
+}
+.nav__item{
+    display: inline-block;
+}
+.nav__item a{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+}
+.nav__item a:hover{
+    color: rgb(54, 152, 209);
+}
+.nav__item a:active{
+    color: cadetblue;
+}
+/* .nav__item a::before{
+    content: " | ";
+}
+.nav__item a::after{
+    content: " | ";
+} */

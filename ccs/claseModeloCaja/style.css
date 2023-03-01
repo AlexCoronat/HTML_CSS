@@ -1,0 +1,13 @@
+*{/*Resetea los valores por defecto de los contenedores
+    para poderlos ajustar a nuestro gusto y que la 
+    funcionalidad no se vea afectada*/
+    box-sizing: border-box;/*Ajusta automaticamente los valores*/
+    padding: 0;
+    margin: 0;
+}
+main{
+    width: 100%;
+    height: 500px;
+    border: 10px solid gray;
+    padding: 20px 35px;
+}

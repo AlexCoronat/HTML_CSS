@@ -1,0 +1,29 @@
+
+.main-nav{
+    margin-top: 10px;
+    list-style: none; /*Sirve para quitar las vñetas a una ñista desordenada*/
+    padding-left: 0;
+    background-color: cadetblue;
+}
+.main-nav__item{
+    display: inline-block;
+}
+.main-nav__item a{ /*A todas las etiquetas "a" dentro de
+    la clase escrita se le aplica ese estilo, se le llama
+    ser especifico*/
+    /*La pseudo clase añade estilo al estado de interaccion*/
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.main-nav__item a:hover{
+    color: crimson;
+}
+.main-nav__item a:active{
+    color: brown;
+}
+
+.main-nav__item a::after{
+    content: " | ";
+}
