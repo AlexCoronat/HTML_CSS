@@ -8,16 +8,6 @@
 html{
     background-color: rgb(219, 219, 219);
 }
-.titulo{
-    font-family: monospace;
-    border-radius: none;
-    padding-top: 58px;
-    padding-bottom: 58px;
-    margin: 0px;
-    color:#1573FF;
-    background-color: #ffffff;
-    text-align: center;
-}
 .nav{
     margin-top: 0px;
     list-style: none;
@@ -57,9 +47,27 @@ html{
 .nav__icon a:active{
     color: cadetblue;
 }
-/* .nav__item a::before{
-    content: " | ";
+.menu{
+    display: flex;
+    padding-top: 58px;
+    padding-bottom: 58px;
+    margin: 0px;
+    color:#1573FF;
+    background-color: #ffffff;
 }
-.nav__item a::after{
-    content: " | ";
-} */
+.men_item{
+    display: inline-block;
+}
+.men_item a{
+    color:  #142691;
+    padding: 60px;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+}
+.men_item a:hover{
+    color: rgb(54, 152, 209);
+}
+.men_item a:active{
+    color: cadetblue;
+}
