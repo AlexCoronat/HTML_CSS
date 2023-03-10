@@ -23,7 +23,8 @@ html{
 }
 .nav__item a{
     color:  #142691;
-    padding: 60px;
+    font-size: 14px;
+    padding: 70px;
     border-radius: 2px;
     text-align: center;
     text-decoration: none;
@@ -47,27 +48,47 @@ html{
 .nav__icon a:active{
     color: cadetblue;
 }
+
 .menu{
-    display: flex;
-    padding-top: 58px;
-    padding-bottom: 58px;
-    margin: 0px;
-    color:#1573FF;
-    background-color: #ffffff;
+    padding-top: 34px;
+    padding-bottom: 62px;
+    padding-left: 380px;
+    padding-right: 0px;
+    background-color: white;
+    font-size: 12px;
 }
-.men_item{
-    display: inline-block;
+.logo{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 100px;
+    padding-right: 200px;
+    position: relative;
+    background-color: white;
 }
-.men_item a{
-    color:  #142691;
-    padding: 60px;
-    border-radius: 2px;
-    text-align: center;
+
+.menu ul,ol{
+    list-style: none;
+}
+.men_nav li a{
+    background-color: white;
+    color: #1898FF;
     text-decoration: none;
+    padding: 10px 30px;
+    display: block;
 }
-.men_item a:hover{
-    color: rgb(54, 152, 209);
+.men_nav li ul a:hover{
+    color: white;
+    background-color: #1898FF;
 }
-.men_item a:active{
-    color: cadetblue;
+.men_nav > li{
+    float: left;
 }
+.men_nav li ul{
+    display: none;
+    position: absolute;
+}
+.men_nav li:hover > ul{
+    display: block;
+}
+/*USAR JUSTIFY-CONTENT*/
+

@@ -1,0 +1,5 @@
+div > p{
+    /*Etiqueta parrafo que sea hijo directo de una 
+    etiqueta div*/
+    color: brown;
+}
